@@ -9,9 +9,7 @@ import org.mapstruct.example.dto.Car;
 import org.mapstruct.example.dto.CarDto;
 import org.mapstruct.factory.Mappers;
 
-/**
- * Created by SE05357 on 08/05/2017.
- */
+
 @Mapper(uses = {CarConverters.class})
 public interface CarMapper {
 

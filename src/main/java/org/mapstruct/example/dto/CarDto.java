@@ -1,59 +1,51 @@
 package org.mapstruct.example.dto;
 
-/**
- * Created by SE05357 on 08/05/2017.
- */
 public class CarDto {
 
   private String make;
   private int seatCount;
-
-  private String surmane;
+  private String surnane;
   private String ignoreProperty;
   private String brakeName;
 
-//  private String type;
 
-  //constructor, getters, setters etc.
+    public String getMake() {
+        return make;
+    }
 
+    public void setMake(String make) {
+        this.make = make;
+    }
 
-  public String getBrakeName() {
-	return brakeName;
-  }
+    public int getSeatCount() {
+        return seatCount;
+    }
 
-  public void setBrakeName(String brakeName) {
-	this.brakeName = brakeName;
-  }
+    public void setSeatCount(int seatCount) {
+        this.seatCount = seatCount;
+    }
 
-  public String getIgnoreProperty() {
-	return ignoreProperty;
-  }
+    public String getSurnane() {
+        return surnane;
+    }
 
-  public void setIgnoreProperty(String ignoreProperty) {
-	this.ignoreProperty = ignoreProperty;
-  }
+    public void setSurnane(String surnane) {
+        this.surnane = surnane;
+    }
 
-  public String getSurmane() {
-	return surmane;
-  }
+    public String getIgnoreProperty() {
+        return ignoreProperty;
+    }
 
-  public void setSurmane(String surmane) {
-	this.surmane = surmane;
-  }
+    public void setIgnoreProperty(String ignoreProperty) {
+        this.ignoreProperty = ignoreProperty;
+    }
 
-  public String getMake() {
-	return make;
-  }
+    public String getBrakeName() {
+        return brakeName;
+    }
 
-  public void setMake(String make) {
-	this.make = make;
-  }
-
-  public int getSeatCount() {
-	return seatCount;
-  }
-
-  public void setSeatCount(int seatCount) {
-	this.seatCount = seatCount;
-  }
+    public void setBrakeName(String brakeName) {
+        this.brakeName = brakeName;
+    }
 }

@@ -8,9 +8,6 @@ import org.mapstruct.example.mapper.CarMapper;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-/**
- * Created by SE05357 on 08/05/2017.
- */
 public class CarTest {
 
   @Test
@@ -19,7 +16,7 @@ public class CarTest {
 	Car car = new Car();
 	car.setMake("Morris");
 	car.setNumberOfSeats(5);
-	car.setSurmane("romero");
+	car.setSurnane("romero");
 	car.setIgnoreProperty("ignoreProperty");
 	Brake brake = new Brake();
 	brake.setId(1);
@@ -33,7 +30,7 @@ public class CarTest {
 	assertThat(carDto).isNotNull();
 	assertThat(carDto.getMake()).isEqualTo("Morris");
 	assertThat(carDto.getSeatCount()).isEqualTo(5);
-	assertThat(carDto.getSurmane()).isEqualTo("romero");
+	assertThat(carDto.getSurnane()).isEqualTo("romero");
 	assertThat(carDto.getIgnoreProperty()).isNull();
 	assertThat(carDto.getBrakeName()).isEqualTo(brake.toString());
 
@@ -42,7 +39,7 @@ public class CarTest {
 	assertThat(car1).isNotNull();
 	assertThat(car1.getMake()).isEqualTo("Morris");
 	assertThat(car1.getNumberOfSeats()).isEqualTo(5);
-	assertThat(car1.getSurmane()).isEqualTo("romero");
+	assertThat(car1.getSurnane()).isEqualTo("romero");
 	assertThat(car1.getIgnoreProperty()).isNull();
 	assertThat(car1.getBrake().getName()).isEqualTo(brake.toString());
 	assertThat(car1.getBrake().getId()).isNull();

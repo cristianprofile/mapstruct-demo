@@ -2,9 +2,7 @@ package org.mapstruct.example.converter;
 
 import org.mapstruct.example.dto.Brake;
 
-/**
- * Created by SE05357 on 08/05/2017.
- */
+
 public class CarConverters {
   public String asString(Brake brake) {
 	return brake!=null && brake.getName() != null && brake.getId()!=null  ? brake.toString() : null;

@@ -1,8 +1,5 @@
 package org.mapstruct.example.dto;
 
-/**
- * @author Filip Hrisafov
- */
 public class OrderItemDto {
 
     private String name;
