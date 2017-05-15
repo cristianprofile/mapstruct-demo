@@ -1,7 +1,6 @@
 # mapstruct-demo
 Demo of mapstruct. Automatic mapping tool without reflectio. MapStruct is a code generator that greatly simplifies the implementation of mappings between Java bean types based on a convention over configuration approach.
-                                                             
-                                                             The generated mapping code uses plain method invocations and thus is fast, type-safe and easy to understand.
+The generated mapping code uses plain method invocations and thus is fast, type-safe and easy to understand.
 
 ![CarDtoDefintion](/images/CarDto.png?raw=true "Car DTO definition")
 ![BrakeConverter](/images/CustomBrakeConverter.png?raw=true "Custom Brake Converter definition")
